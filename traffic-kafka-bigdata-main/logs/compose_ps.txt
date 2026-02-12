@@ -1,0 +1,2 @@
+NAME      IMAGE                          COMMAND                  SERVICE   CREATED          STATUS              PORTS
+kafka     confluentinc/cp-kafka:latest   "/etc/confluent/dock…"   kafka     47 seconds ago   Up About a minute   0.0.0.0:9092->9092/tcp, [::]:9092->9092/tcp

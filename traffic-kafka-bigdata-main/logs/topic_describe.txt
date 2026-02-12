@@ -1,0 +1,2 @@
+Topic: traffic.events	TopicId: twOTaPc5SmGRh8XbL30jSg	PartitionCount: 1	ReplicationFactor: 1	Configs: min.insync.replicas=1
+	Topic: traffic.events	Partition: 0	Leader: 1	Replicas: 1	Isr: 1	Elr: 	LastKnownElr: 

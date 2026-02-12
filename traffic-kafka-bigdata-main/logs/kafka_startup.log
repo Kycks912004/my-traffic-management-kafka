@@ -1,0 +1,120 @@
+kafka  | 	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+kafka  | 	sasl.oauthbearer.assertion.claim.iss = null
+kafka  | 	sasl.oauthbearer.assertion.claim.jti.include = false
+kafka  | 	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+kafka  | 	sasl.oauthbearer.assertion.claim.sub = null
+kafka  | 	sasl.oauthbearer.assertion.file = null
+kafka  | 	sasl.oauthbearer.assertion.private.key.file = null
+kafka  | 	sasl.oauthbearer.assertion.private.key.passphrase = null
+kafka  | 	sasl.oauthbearer.assertion.template.file = null
+kafka  | 	sasl.oauthbearer.client.credentials.client.id = null
+kafka  | 	sasl.oauthbearer.client.credentials.client.secret = null
+kafka  | 	sasl.oauthbearer.clock.skew.seconds = 30
+kafka  | 	sasl.oauthbearer.expected.audience = null
+kafka  | 	sasl.oauthbearer.expected.issuer = null
+kafka  | 	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+kafka  | 	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+kafka  | 	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+kafka  | 	sasl.oauthbearer.jwks.endpoint.url = null
+kafka  | 	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+kafka  | 	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+kafka  | 	sasl.oauthbearer.scope = null
+kafka  | 	sasl.oauthbearer.scope.claim.name = scope
+kafka  | 	sasl.oauthbearer.sub.claim.name = sub
+kafka  | 	sasl.oauthbearer.token.endpoint.url = null
+kafka  | 	sasl.server.callback.handler.class = null
+kafka  | 	sasl.server.max.receive.size = 524288
+kafka  | 	security.inter.broker.protocol = PLAINTEXT
+kafka  | 	security.providers = null
+kafka  | 	server.max.startup.time.ms = 9223372036854775807
+kafka  | 	share.coordinator.append.linger.ms = 5
+kafka  | 	share.coordinator.cold.partition.snapshot.interval.ms = 300000
+kafka  | 	share.coordinator.load.buffer.size = 5242880
+kafka  | 	share.coordinator.snapshot.update.records.per.snapshot = 500
+kafka  | 	share.coordinator.state.topic.compression.codec = 0
+kafka  | 	share.coordinator.state.topic.min.isr = 2
+kafka  | 	share.coordinator.state.topic.num.partitions = 50
+kafka  | 	share.coordinator.state.topic.prune.interval.ms = 300000
+kafka  | 	share.coordinator.state.topic.replication.factor = 3
+kafka  | 	share.coordinator.state.topic.segment.bytes = 104857600
+kafka  | 	share.coordinator.threads = 1
+kafka  | 	share.coordinator.write.timeout.ms = 5000
+kafka  | 	share.fetch.purgatory.purge.interval.requests = 1000
+kafka  | 	socket.connection.setup.timeout.max.ms = 30000
+kafka  | 	socket.connection.setup.timeout.ms = 10000
+kafka  | 	socket.listen.backlog.size = 50
+kafka  | 	socket.receive.buffer.bytes = 102400
+kafka  | 	socket.request.max.bytes = 104857600
+kafka  | 	socket.send.buffer.bytes = 102400
+kafka  | 	ssl.allow.dn.changes = false
+kafka  | 	ssl.allow.san.changes = false
+kafka  | 	ssl.cipher.suites = []
+kafka  | 	ssl.client.auth = none
+kafka  | 	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+kafka  | 	ssl.endpoint.identification.algorithm = https
+kafka  | 	ssl.engine.factory.class = null
+kafka  | 	ssl.key.password = null
+kafka  | 	ssl.keymanager.algorithm = SunX509
+kafka  | 	ssl.keystore.certificate.chain = null
+kafka  | 	ssl.keystore.key = null
+kafka  | 	ssl.keystore.location = null
+kafka  | 	ssl.keystore.password = null
+kafka  | 	ssl.keystore.type = JKS
+kafka  | 	ssl.principal.mapping.rules = DEFAULT
+kafka  | 	ssl.protocol = TLSv1.3
+kafka  | 	ssl.provider = null
+kafka  | 	ssl.secure.random.implementation = null
+kafka  | 	ssl.trustmanager.algorithm = PKIX
+kafka  | 	ssl.truststore.certificates = null
+kafka  | 	ssl.truststore.location = null
+kafka  | 	ssl.truststore.password = null
+kafka  | 	ssl.truststore.type = JKS
+kafka  | 	telemetry.max.bytes = 1048576
+kafka  | 	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+kafka  | 	transaction.max.timeout.ms = 900000
+kafka  | 	transaction.partition.verification.enable = true
+kafka  | 	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+kafka  | 	transaction.state.log.load.buffer.size = 5242880
+kafka  | 	transaction.state.log.min.isr = 2
+kafka  | 	transaction.state.log.num.partitions = 50
+kafka  | 	transaction.state.log.replication.factor = 3
+kafka  | 	transaction.state.log.segment.bytes = 104857600
+kafka  | 	transaction.two.phase.commit.enable = false
+kafka  | 	transactional.id.expiration.ms = 604800000
+kafka  | 	unclean.leader.election.enable = false
+kafka  | 	unclean.leader.election.interval.ms = 300000
+kafka  | 	unstable.api.versions.enable = false
+kafka  | 	unstable.feature.versions.enable = false
+kafka  |  (org.apache.kafka.common.config.AbstractConfig)
+kafka  | [2025-12-20 11:28:41,132] INFO [BrokerServer id=1] Waiting for the broker to be unfenced (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,132] INFO [BrokerServer id=1] Waiting for the broker to be unfenced (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,135] INFO [QuorumController id=1] The request from broker 1 to unfence has been granted because it has caught up with the offset of its register broker record 9. (org.apache.kafka.controller.BrokerHeartbeatManager)
+kafka  | [2025-12-20 11:28:41,145] INFO [QuorumController id=1] Replayed BrokerRegistrationChangeRecord modifying the registration for broker 1: BrokerRegistrationChangeRecord(brokerId=1, brokerEpoch=9, fenced=-1, inControlledShutdown=0, logDirs=[]) (org.apache.kafka.controller.ClusterControlManager)
+kafka  | [2025-12-20 11:28:41,167] INFO [BrokerLifecycleManager id=1] The broker has been unfenced. Transitioning from RECOVERY to RUNNING. (kafka.server.BrokerLifecycleManager)
+kafka  | [2025-12-20 11:28:41,167] INFO [BrokerLifecycleManager id=1] The broker has been unfenced. Transitioning from RECOVERY to RUNNING. (kafka.server.BrokerLifecycleManager)
+kafka  | [2025-12-20 11:28:41,167] INFO [BrokerServer id=1] Finished waiting for the broker to be unfenced (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,167] INFO [BrokerServer id=1] Finished waiting for the broker to be unfenced (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,168] INFO authorizerStart completed for endpoint PLAINTEXT. Endpoint is now READY. (org.apache.kafka.server.network.EndpointReadyFutures)
+kafka  | [2025-12-20 11:28:41,168] INFO authorizerStart completed for endpoint PLAINTEXT_HOST. Endpoint is now READY. (org.apache.kafka.server.network.EndpointReadyFutures)
+kafka  | [2025-12-20 11:28:41,168] INFO [SocketServer listenerType=BROKER, nodeId=1] Enabling request processing. (kafka.network.SocketServer)
+kafka  | [2025-12-20 11:28:41,168] INFO [SocketServer listenerType=BROKER, nodeId=1] Enabling request processing. (kafka.network.SocketServer)
+kafka  | [2025-12-20 11:28:41,169] INFO Awaiting socket connections on kafka:29092. (kafka.network.DataPlaneAcceptor)
+kafka  | [2025-12-20 11:28:41,169] INFO Awaiting socket connections on kafka:29092. (kafka.network.DataPlaneAcceptor)
+kafka  | [2025-12-20 11:28:41,170] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.DataPlaneAcceptor)
+kafka  | [2025-12-20 11:28:41,170] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.DataPlaneAcceptor)
+kafka  | [2025-12-20 11:28:41,172] INFO [BrokerServer id=1] Waiting for all of the authorizer futures to be completed (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,172] INFO [BrokerServer id=1] Waiting for all of the authorizer futures to be completed (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,172] INFO [BrokerServer id=1] Finished waiting for all of the authorizer futures to be completed (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,172] INFO [BrokerServer id=1] Finished waiting for all of the authorizer futures to be completed (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,173] INFO [BrokerServer id=1] Waiting for all of the SocketServer Acceptors to be started (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,173] INFO [BrokerServer id=1] Waiting for all of the SocketServer Acceptors to be started (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,173] INFO [BrokerServer id=1] Finished waiting for all of the SocketServer Acceptors to be started (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,173] INFO [BrokerServer id=1] Finished waiting for all of the SocketServer Acceptors to be started (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,173] INFO [BrokerServer id=1] Transition from STARTING to STARTED (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,173] INFO [BrokerServer id=1] Transition from STARTING to STARTED (kafka.server.BrokerServer)
+kafka  | [2025-12-20 11:28:41,174] INFO Kafka version: 8.1.1-ccs (org.apache.kafka.common.utils.AppInfoParser)
+kafka  | [2025-12-20 11:28:41,174] INFO Kafka commitId: 1ac16856a3d19e019c9fac53dfe934c4acab7ddc (org.apache.kafka.common.utils.AppInfoParser)
+kafka  | [2025-12-20 11:28:41,174] INFO Kafka startTimeMs: 1766230121173 (org.apache.kafka.common.utils.AppInfoParser)
+kafka  | [2025-12-20 11:28:41,175] INFO [KafkaRaftServer nodeId=1] Kafka Server started (kafka.server.KafkaRaftServer)
+kafka  | [2025-12-20 11:28:41,175] INFO [KafkaRaftServer nodeId=1] Kafka Server started (kafka.server.KafkaRaftServer)
+kafka  | [2025-12-20 11:29:39,806] INFO [QuorumController id=1] In the last 60000 ms period, 332 controller events were completed, which took an average of 10.75 ms each. The slowest event was completeActivation[1](195282935), which took 52.28 ms. (org.apache.kafka.controller.EventPerformanceMonitor)
