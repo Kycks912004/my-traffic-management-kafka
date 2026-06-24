@@ -1,3 +1,5 @@
+[![Producer](https://img.shields.io/badge/Python-producer.py-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/producer.py) [![Consumer](https://img.shields.io/badge/Python-consumer.py-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/consumer.py)
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Kafka](https://img.shields.io/badge/Kafka-3.0-orange)
 ![Docker](https://img.shields.io/badge/Docker-Desktop-blue)
