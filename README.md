@@ -1,4 +1,10 @@
-[![Producer](https://img.shields.io/badge/Python-producer.py-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/producer.py) [![Consumer](https://img.shields.io/badge/Python-consumer.py-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/consumer.py)
+[![Producer](https://img.shields.io/badge/Python-producer.py-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/producer.py)
+[![Consumer](https://img.shields.io/badge/Python-consumer.py-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/consumer.py)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/Kycks912004/my-traffic-management-kafka)
+
+# 🚦 Traffic Management with Apache Kafka
+
+**Kylian Pinto** — M1 Ingénierie Data & IA, ECE Paris
 
 ## ✅ Preuve d'exécution
 
@@ -26,8 +32,6 @@ traffic.events
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Kafka](https://img.shields.io/badge/Kafka-3.0-orange)
 ![Docker](https://img.shields.io/badge/Docker-Desktop-blue)
-
-# Traffic Management with Apache Kafka
 
 ## Project Description
 This project is a technical Big Data project using **Apache Kafka**.  
