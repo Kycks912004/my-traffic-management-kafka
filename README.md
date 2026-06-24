@@ -1,5 +1,28 @@
 [![Producer](https://img.shields.io/badge/Python-producer.py-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/producer.py) [![Consumer](https://img.shields.io/badge/Python-consumer.py-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/consumer.py)
 
+## ✅ Preuve d'exécution
+
+**Cluster Kafka démarré avec Docker :**
+```
+NAME    IMAGE                          SERVICE  STATUS   PORTS
+kafka   confluentinc/cp-kafka:latest   kafka    Up       0.0.0.0:9092->9092/tcp
+```
+
+**Topic créé et configuré :**
+```
+Topic: traffic.events
+  PartitionCount:      1
+  ReplicationFactor:   1
+  Leader: 1  |  Replicas: 1  |  ISR: 1
+```
+
+**Topic actif :**
+```
+traffic.events
+```
+
+---
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Kafka](https://img.shields.io/badge/Kafka-3.0-orange)
 ![Docker](https://img.shields.io/badge/Docker-Desktop-blue)
